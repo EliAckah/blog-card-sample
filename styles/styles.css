@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --bg-color: #FAFAF9;
+    --dark-color: #20293A;
+    --ldark-color: #394150;
+    --purple-color: #7C19EE;
+    --lpurple-color: #F2EAFD;
+    --grey-color: #E5EAF0;
+}
+
+body {
+    font-family: 'Sora';
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+section {
+    margin-top: 164px;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 368px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    background: #ffffff;
+}
+
+.card .pic, .card button, .card .header, .card .blog-body, .card .blog-writer {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card .pic {
+    max-width: 336px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.card button {
+    font-family: 'Sora',arial;
+    color: var(--purple-color);
+    background: var(--lpurple-color);
+    padding: 6px 16px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+
+.card .header {
+    margin-bottom: 6px;
+}
+
+.card .blog-body, .card .blog-writer {
+    color: var(--ldark-color);
+}
+
+
+.card .blog-body {
+    margin-bottom: 20px;
+}
+
+.card .blog-writer {
+    padding: 20px 16px;
+    margin: 0;
+    border-top: 1px solid var(--grey-color);
+}
+
+/* Utility Classes */
+
+
+.text-xl {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--dark-color);
+}
+
+.text-l {
+    font-size: 0.875rem;
+}
+
+.text-md {
+    font-size: 0.75rem;
+}
+
+.text-sm {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
